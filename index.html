@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+    <link href='https://fonts.cdnfonts.com/css/latin-modern-roman' rel='stylesheet' type='text/css'>
+    <title>Resume - Youssef M'rabet</title>
+    <style>
+        /*@import url('https://fonts.cdnfonts.com/css/latin-modern-roman');*/
+
+        * {
+            margin: 0;
+        }
+
+        body {
+            font-family: 'lmroman10', Times, serif;
+            font-size: 0.85rem;
+        }
+
+        main > header {
+            text-align: center;
+        }
+
+        main {
+            display: grid;
+            gap: 0.5em;
+        }
+
+        section > h3 {
+            border-bottom: 0.1rem solid black;
+        }
+        article[name="job"] > header {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-between;
+        }
+        article[name="job"] > header > *:nth-child(2n) {
+            text-align: end;
+        }
+        
+        a {
+            text-decoration: none;
+            border-bottom: 1px solid rgb(0, 102, 204);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Youssef M'rabet</h1>
+            <p>
+                Email: <a href="mailto:mrabet1994@gmail.com">mrabet1994@gmail.com</a>
+            </p>
+            <p>
+                Github: <a href="https://github.com/ymrabet" target="_blank">github.com/ymrabet</a>
+            </p>
+        </header>
+
+        <section name='skills'>
+            <h3>SKILLS and CERTIFICATIONS</h3>
+            Python, JavaScript, SQL, R, Tableau, Docker, AWS EC2, Git, UNIX, Selenium, Jenkins, Splunk, CI/CD, WebdriverIO
+        </section>
+
+        <section name="experience">
+            <h3>EXPERIENCE</h3>
+            
+            <article name="job">
+                <header>
+                    <b>Quickbase</b>
+                    <em><b>Boston MA, USA</b></em>
+                    <em>Software Engineer in Test 1</em>
+                    <span>2024-02 - current</span>
+                    <em>Associate Software Engineer in Test</em>
+                    <span>2022-07 - 2024-01</span>
+                </header>
+                <ul>
+                    <li> Run performance benchmarks on production and testing environments <em>(AWS EC2, Splunk, Excel, Quickbase API)</em></li>
+                    <li> Implement a Quickbase app extension to help team and manager keep track our scheduled time offs</li>
+                    <li> Design, implement and maintain core components of the E2E testing framework</li>
+                    <li> Design, implement and maintain <b>62 E2E tests and 15 Functional tests</b> as of 01/2024 around the new Pipelines Builder Feature</li>
+                    <li> Refactored existing test suites to reduce the execution time by <b>50%</b></li>
+                    <li> Migrated <b>45 legacy Selenium E2E tests</b> to WDIO which found <b>5 new bugs</b> in the platform </li>
+                    <em>(Javascript, Java, Docker, Jenkins, CI/CD, Git Quickbase HTTP and REST API)</em>
+                </ul>
+            </article>
+            
+            <article name="job">
+                <header>
+                    <b>Quickbase</b>
+                    <em><b>Boston MA, USA</b></em>
+                    <em>Senior Technical Support Representative 1</em>
+                    <span>2022-02 - 2022-06</span>
+                    <em>Technical Support Representative 1</em>
+                    <span>2021-07 - 2022-01</span>
+                </header>
+                
+                <ul>
+                    <li>Exceeded all Tech support metrics (<b>Time for First Response < 2Hr= 99%/90%, Resolution Rate  97%/95%, Satisfaction 95%/90%</b>)</li>
+                    <li><b>Averaged < 8 cases</b> in queue at any given time, regardless of overall volume </li>
+                    <li>Ran weekly standups to assist other reps in solving harder cases</li>
+                    <em>Quickbase API, Quickbase Rest API, Splunk</em>
+                </ul>
+            </article>
+
+            <article name="job">
+                <header>
+                    <b>Hult International Business School </b>
+                    <em><b>Cambridge, MA, USA</b></em>
+                    <em>Teaching Assistant</em>
+                    <span>2021-09 - 2022-06</span>
+                </header>
+                <ul>
+                    <li> Tutored 2 Finance and 3 Accounting courses with <b>75 students per course</b><em>(Excel)</em></li>
+                    <li> Graded quizzes, assignments and exams <em>(Excel)</em> </li>
+                </ul>
+            </article>
+
+            <article name="job">
+                <header>
+                    <b>Oracle</b>
+                    <em><b>Casablanca, Morocco</b></em>
+                    <em>Software Engineering Intern</em>
+                    <span>2018-06 - 2018-08</span>
+                </header>
+                <ul>
+                    <li>Developed an E-Business Suite extension under Oracle Application Framework to map values from third party applications into the Financial Accounting Hub module.</li>
+                    <em>(Java, Java Enterprise Edition, Oracle E-Buiness Suite, Oracle Application Framework)</em>
+                </ul>
+            </article>
+            
+        </section>
+
+        <section name="projects">
+            <h3>PROJECTS</h3>
+            <article>
+                <ul>
+                    
+                    <li>
+                        <a href="https://github.com/ymrabet/TwitterProject" target="_blank">ymrabet/TwitterProject</a>
+                        ETL, from twitter API into Quickbase API
+                        <em>(Python)</em>
+                        
+                    </li>
+                    <li>
+                        <a href="https://github.com/ymrabet/data-optimization" target="_blank">ymrabet/data-optimization</a>
+                        Solved an optimization problem to assign team sets from a pool of people
+                        <em>(Python)</em>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ymrabet/Exploratory-Data-Analysis" target="_blank">ymrabet/Exploratory-Data-Analysis</a>
+                        Explored a World Bank dataset to introduce the region "Middle East and Russia" and identify one country that represents this region the best according to the data.
+                        <em>(Python)</em>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ymrabet/data-science-R-impact-CO2-emissions" target="_blank">ymrabet/data-science-R-impact-CO2-emissions</a>
+                        Analyzed correlation between production of EV cars and impact on total CO2 emissions of Norway
+                        <em>(R)</em>
+                    </li>
+
+                </ul>
+            </article>
+        </section>
+
+        <section name="education">
+            <h3>EDUCATION</h3>
+                <ul>
+                    <li>
+                        <b>Hult International Business School, Cambridge, MA, USA</b>
+                        <small>M.Sc. in Business Analytics, 2021</small>
+                    </li>
+
+                    <li>
+                        <b>Hult International Business School, Cambridge, MA, USA</b>
+                        <small>M.Sc. in International Business, 2020</small>
+                    </li>
+                    <li>
+                        <b>Al Akhawayn University in Ifrane, Morocco</b>
+                        <small>B.Sc. in Computer Science, 2018</small>
+                    </li>
+        </ul>
+        </section>
+
+        <section name="languages">
+            <h3>LANGUAGES</h3>
+            English, French, Arabic: Professional working proficiency.
+        </section>
+    </main>
+</body>
+
+</html>
